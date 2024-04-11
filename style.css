@@ -1,14 +1,35 @@
+body {
+    width: 950px;
+}
+
 .grid-div {
     display: flex;
     gap: 10px;
-}
-
-.white {
-    color: white;
+    height: 950px;
+    width: 950px;
 }
 
 .row-style {
     display: flex; 
     flex-direction: column; 
-    gap: 10px
+    gap: 10px;
+    width: 100%
+}
+.white {
+    color: white;
+}
+
+
+
+.square-settings {
+    padding: 10px;
+}
+
+.button-div {
+    text-align: center;
+    margin: 50px;
+}
+
+.div-init {
+    flex: 1;
 }
