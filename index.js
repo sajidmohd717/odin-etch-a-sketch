@@ -6,6 +6,7 @@ const btn = document.querySelector(".square-settings");
 btn.addEventListener("click", () => {
   const userInput = prompt("choose how many squares you want");
   let divSize = parseInt(userInput);
+  divSize = divSize > 100 ? 100 : divSize;
   const body = document.getElementsByTagName("body")[0];
   const gridDiv = document.querySelector(".grid-div");
   body.removeChild(gridDiv);
