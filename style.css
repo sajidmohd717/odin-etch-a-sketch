@@ -2,3 +2,13 @@
     display: flex;
     gap: 10px;
 }
+
+.white {
+    color: white;
+}
+
+.row-style {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px
+}
