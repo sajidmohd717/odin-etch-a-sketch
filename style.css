@@ -13,23 +13,31 @@ body {
     display: flex; 
     flex-direction: column; 
     gap: 10px;
-    width: 100%
+    height: 100%;
+    width: 100%;
 }
+
+.div-init {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.square-settings {
+    padding: 10px;
+    height: 100%
+}
+
 .white {
     color: white;
 }
 
 
 
-.square-settings {
-    padding: 10px;
-}
+
 
 .button-div {
     text-align: center;
     margin: 50px;
 }
 
-.div-init {
-    flex: 1;
-}
